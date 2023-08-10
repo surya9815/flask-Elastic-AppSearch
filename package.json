@@ -1,0 +1,25 @@
+{
+  "name": "flask-elastic-appsearch",
+  "version": "1.0.0",
+  "description": "Search with Flask and Elastic App Search ",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "postcss static/src/style.css -o static/css/main_min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surya9815/flask-Elastic-AppSearch.git"
+  },
+  "author": "Suryansh Thakur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/surya9815/flask-Elastic-AppSearch/issues"
+  },
+  "homepage": "https://github.com/surya9815/flask-Elastic-AppSearch#readme",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "github:fullhuman/postcss-purgecss",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3"
+  }
+}
